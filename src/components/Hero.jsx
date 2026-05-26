@@ -1,11 +1,11 @@
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 overflow-hidden bg-[#0a0f1e]">
+    <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 pt-24 overflow-hidden bg-[#0a0f1e]">
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#f5c842]/5 blur-[120px] pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-72 h-72 rounded-full bg-[#1a2a6c]/40 blur-[100px] pointer-events-none" />
 
       <div className="mb-6 px-4 py-1.5 rounded-full border border-[#f5c842]/30 bg-[#f5c842]/10 text-[#f5c842] text-xs font-semibold tracking-widest uppercase animate-fade-in">
-        CAT 2026 · VARC Preparation
+        CAT 2025 · VARC Preparation
       </div>
 
       <h1
