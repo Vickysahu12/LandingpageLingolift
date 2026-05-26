@@ -1,13 +1,21 @@
-import React from 'react'
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Features from "./components/Features";
+import WhyLingoLift from "./components/WhyLingoLift";
+import Waitlist from "./components/Waitlist";
+import Footer from "./components/Footer";
 
-const App = () => {
+export default function App() {
   return (
-    <div>
-      <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <div className="min-h-screen bg-[#0a0f1e]">
+      <Navbar />
+      <main>
+        <Hero />
+        <Features />
+        <WhyLingoLift />
+        <Waitlist />
+      </main>
+      <Footer />
     </div>
-  )
+  );
 }
-
-export default App
